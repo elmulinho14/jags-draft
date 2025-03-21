@@ -22,8 +22,7 @@ export async function submitMockDraft(
     const newDraft: MockDraft = {
       id: uuidv4(),
       userId,
-      userName,I
-      userImage,
+      userName,
       createdAt: new Date(),
       picks,
       isComplete: picks.length >= 32 // Consider it complete if it has at least a full first round
